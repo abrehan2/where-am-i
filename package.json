@@ -1,5 +1,5 @@
 {
-  "name": "where-am-i",
+  "name": "geospatial-toolkit",
   "version": "1.0.0",
   "description": "A Node.js package that provides instant access to the user's current location. Simplify location-based development with a lightweight and easy-to-integrate solution, ideal for applications that require real-time geospatial data.",
   "main": "dist/cjs/index.js",

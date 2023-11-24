@@ -1,5 +1,7 @@
 // IMPORTS -
-export * from "./geospatial-toolkit";
+export { parseLocation } from "./geospatial-toolkit";
+
+
 
 
 
