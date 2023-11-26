@@ -24,8 +24,6 @@ const parseLocation = async (IP_DATA_API) => {
       flag: ipInfo?.flag,
     };
 
-    console.log(parser);
-
     return parser;
   } catch (error) {
     throw new Error(error?.message);
