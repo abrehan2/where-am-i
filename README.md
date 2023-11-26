@@ -12,10 +12,11 @@ Here is an example of a basic app using this library:
 
 ```jsx
 const parseLocation = require('geospatial-toolkit');
+const IP_DATA_API = "ADD YOUR API HERE";
 
 const getLocation = async () => {
 
-const { ip, longitude, latitude, region, country, city, flag } = await parseLocation();
+const { ip, longitude, latitude, region, country, city, flag } = await parseLocation(IP_DATA_API);
   
 console.log(ip, longitude, latitude, region, country, city, flag);
 
