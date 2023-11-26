@@ -19,5 +19,9 @@
   "peerDependencies": {
     "axios": "^1.6.2",
     "ipdata": "^2.2.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/abrehan2/geospatial-toolkit/issues"
+  },
+  "homepage": "https://github.com/abrehan2/geospatial-toolkit#readme"
 }
