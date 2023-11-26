@@ -8,7 +8,7 @@ npm install geospatial-toolkit
 ```
 ## Getting started with geospatial-toolkit
 
-Here is an example of a basic app using this library:
+Here is an example of a basic app using this package:
 
 ```jsx
 const parseLocation = require('geospatial-toolkit');
@@ -24,3 +24,4 @@ console.log(ip, longitude, latitude, region, country, city, flag);
 
 getLocation();
 ```
+> Utilize the [ip-data](https://ipdata.co/) API to leverage the capabilities of this package
