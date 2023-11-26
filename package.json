@@ -1,6 +1,6 @@
 {
   "name": "geospatial-toolkit",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "A Node.js package that provides instant access to the user's current location. Simplify location-based development with a lightweight and easy-to-integrate solution, ideal for applications that require real-time geospatial data.",
   "main": "index.ts",
   "keywords": [
