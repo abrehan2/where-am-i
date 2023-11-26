@@ -25,8 +25,8 @@ const parseLocation = async () => {
     };
 
     return parser;
-  } catch (error: any) {
-    throw new Error(error.message);
+  } catch (error) {
+    throw new Error(error?.message);
   }
 };
 

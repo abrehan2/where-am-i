@@ -1,8 +1,8 @@
 {
   "name": "geospatial-toolkit",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A Node.js package that provides instant access to the user's current location. Simplify location-based development with a lightweight and easy-to-integrate solution, ideal for applications that require real-time geospatial data.",
-  "main": "index.ts",  
+  "main": "index.ts",
   "keywords": [
     "ip",
     "longitude",
@@ -13,10 +13,8 @@
   "author": "Abdul Rehan",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^20.10.0",
     "axios": "^1.6.2",
     "dotenv": "^16.3.1",
-    "ipdata": "^2.2.4",
-    "typescript": "^5.3.2"
+    "ipdata": "^2.2.4"
   }
 }
