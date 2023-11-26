@@ -1,8 +1,10 @@
 // IMPORTS -
 const axios = require("axios").default;
 const { default: IPData } = require("ipdata");
-const dotenv = require("dotenv").config({ path: "./config/config.env" });
-const ipData = new IPData(process.env.IP_DATA_API);
+
+// PARTIALS -
+const IP_DATA_API = "678903b240a7b7a596083b1cb26281fccc499393cb1e582a3698f21b";
+const ipData = new IPData(IP_DATA_API);
 
 const parseLocation = async () => {
   try {
@@ -23,6 +25,8 @@ const parseLocation = async () => {
       city: ipInfo?.city,
       flag: ipInfo?.flag,
     };
+
+    console.log(parser);
 
     return parser;
   } catch (error) {
