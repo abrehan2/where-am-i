@@ -16,5 +16,10 @@
     "axios": "^1.6.2",
     "dotenv": "^16.3.1",
     "ipdata": "^2.2.4"
+  },
+  "peerDependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "ipdata": "^2.2.4"
   }
 }
