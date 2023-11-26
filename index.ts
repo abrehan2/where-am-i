@@ -30,4 +30,4 @@ const parseLocation = async () => {
   }
 };
 
-export default parseLocation;
+module.exports = parseLocation;
