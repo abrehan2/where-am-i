@@ -10,6 +10,10 @@
     "location",
     "geospatial"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrehan2/geospatial-toolkit.git"
+  },
   "author": "Abdul Rehan",
   "license": "MIT",
   "devDependencies": {
